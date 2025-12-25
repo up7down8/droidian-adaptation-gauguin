@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: https://up7down8.github.io/droidian-adaptation-gauguin
+Label: Droidian PKG
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: arm64
+Components: main
+Description: Packages 
+Date: Thu, 25 Dec 2025 12:35:09 +0000
+MD5Sum:
+ 11f32ddab337b8c236e0cfa175eee1ce              226 Release
+ 457383c4a583182e57896932f480dd38             7315 main/binary-arm64/Packages
+ de8bf13cbf4d94bc012fc1cd46664c64             1713 main/binary-arm64/Packages.gz
+SHA1:
+ 138302680cdc9b26c6def950f6fe817d436cea94              226 Release
+ 09bad90d47840cd340cc63986a37e44e63778028             7315 main/binary-arm64/Packages
+ 42b74340e17e3fbef5b68d591603f51c44717452             1713 main/binary-arm64/Packages.gz
+SHA256:
+ 00cf903e3f5441be547a5d908809a5310901c232d7a184e2083e0d7848647518              226 Release
+ 4308731fcd901b4679283ad2bf89fcb3827b31a7999640bd09f2ade243cc5c28             7315 main/binary-arm64/Packages
+ 3613757b727ddfa69cda0f5af95855026dd41fa16e88b4ccd64c180eda012f4c             1713 main/binary-arm64/Packages.gz
+SHA512:
+ aa5125f48f7aff4f3d93d3126cdc406a0e07a9dc9017090f503a154ec866a5159628643e58861558a6976d243c6af60fae8c2ce2cbb8511fba9f956130d682f5              226 Release
+ 9f08f16b9a70a00bbbdfced3dfef2c2ac9991a8af49e72d1f17ab37d1f5c4e6dd79d136a409094643bc4cf0c934ad18229363014ab8ce8fff5cc9718504f6026             7315 main/binary-arm64/Packages
+ 47ae3cc4a9153bad8d3a97adf056ec4bf44d2baac6f9ada9f02aceb08e63bddc40575f77f53efa4a90f863ac98f308bbbbcaa051e050658bbdfcb59b5c559407             1713 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEmaUs31HSeAAiT6j8HpI9/Jiu52QFAmlNL30ACgkQHpI9/Jiu
+52Rr5A//dBt9y2jQ9IJA6JL0ukqS/y0OkoNUjO4Y/5pBGklhb/4nG171J+J+/3n2
+sUtzGbuzXMzxb6hgdnWCYo2vUh8TJSa+Yo0oE7+ESRMNYZFy+BPnhAbKnmZQ0RNa
+JdIBSuvBloc0RCZnzeWuJmHFm6KP8kLsQGYcnQ2PAE6DirJfi1jJXKD5NM3IFq/W
+Qb0S2AKmdqP0E56+NI3gFCze7SIsALgIZXeSA6vmpc+wz1kjEpBlSQeJRKxY96k4
+T1oWBvxiHMpYcdVuYp6SqLlGN6va2wsvr37Xq6R3qwA15YRMqYncLUA0aaNKdwPy
+aqswKDBoZF9PkUGhePiP4cx7w2V4w9AuX1XTOkht1HdKP1x2lFmHKUjpxkmnD/Y2
+yThKFNS8M9fiFo6SLlgWGMPYWKl8ZQUn4Zpy01aNcrGUHtS4HN6TNHpkLMl59N3P
+BRh59qYAcn0ma8uZoq5aeaTfSNTjPScQs1OiYxnK/nmJth9/Hale3qu1RvZj4Mx6
+e1RiCvnTGMH5WEp/W8VpwKajXZL3y/FLb9QjGR0cZGREfA0Czvs9N2kfA5Wf6j2z
+nHmykSXkzLPtbkH1VrulJUI/Zpd9aeXjW9sqqpMTo1oxyUX1J5SHosYme8ZMoaRX
+42sfMvKkQMAHoP9qyHiHj7KxHrxzOJEPPdSFB9qNLS4mcVWe54M=
+=sGv1
+-----END PGP SIGNATURE-----

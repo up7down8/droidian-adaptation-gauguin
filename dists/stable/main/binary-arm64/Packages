@@ -1,0 +1,155 @@
+Package: adaptation-xiaomi-gauguin
+Version: 0.0.0+git20251225104256.22a9420.bookworm
+Architecture: arm64
+Maintainer: linux.2048 <linux.2048.com@gmail.com>
+Installed-Size: 9
+Depends: adaptation-hybris-api30-phone, adaptation-xiaomi-gauguin-configs (= 0.0.0+git20251225104256.22a9420.bookworm)
+Filename: packages/adaptation-xiaomi-gauguin_0.0.0+git20251225104256.22a9420.bookworm_arm64.deb
+Size: 2196
+MD5sum: 6aa0a66b3637fd75fa17c802289b8d8b
+SHA1: e7f7ce6bdc151ff85e4638eefeac320a57370564
+SHA256: 8a1611a3efdf8a6a9f99972049b00e7a349b36c58cecf43a6e3d83022c62e65b
+Section: metapackages
+Priority: optional
+Description: Community adaptation for xiaomi-gauguin - metapackage
+X-Droidian-Vcs-Revision: 22a9420fbba718a86ddb755552efb0b34e91eacf
+X-Droidian-Vcs-Url: https://github.com/up7down8/adaptation-xiaomi-gauguin
+
+Package: adaptation-xiaomi-gauguin-configs
+Source: adaptation-xiaomi-gauguin
+Version: 0.0.0+git20251225104256.22a9420.bookworm
+Architecture: arm64
+Maintainer: linux.2048 <linux.2048.com@gmail.com>
+Installed-Size: 24
+Filename: packages/adaptation-xiaomi-gauguin-configs_0.0.0+git20251225104256.22a9420.bookworm_arm64.deb
+Size: 3740
+MD5sum: 366da9d90067ad80ac77575c860f933e
+SHA1: 791c037925b902b50e04e44d207812fb504fbeb3
+SHA256: 4c0f60bdb2428ea09f551186619460d9f058be39d1da2ff97d8666e2bf996532
+Section: metapackages
+Priority: optional
+Description: Community adaptation for xiaomi-gauguin - adaptation configurations
+X-Droidian-Vcs-Revision: 22a9420fbba718a86ddb755552efb0b34e91eacf
+X-Droidian-Vcs-Url: https://github.com/up7down8/adaptation-xiaomi-gauguin
+
+Package: linux-bootimage-4.19.325-xiaomi-gauguin
+Source: linux-android-xiaomi-gauguin
+Version: 0.0.0+git20251220021242.830303e.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 138522
+Pre-Depends: flash-bootimage (>= 4)
+Depends: linux-image-4.19.325-xiaomi-gauguin (= 0.0.0+git20251220021242.830303e.droidian)
+Filename: packages/linux-bootimage-4.19.325-xiaomi-gauguin_0.0.0+git20251220021242.830303e.droidian_arm64.deb
+Size: 61949508
+MD5sum: 97dd4b21b4e58d27181111bf70f36d93
+SHA1: 15ee06845a116da7f47fb0aa21af0b5fb8c5e27f
+SHA256: 5a95a80687db80443bec0141ad9327304b4686f82e530d617469c3a45cd29538
+Section: kernel
+Priority: optional
+Description: Linux kernel for Redmi Note 9 Pro 5G - Android Boot Image
+ This package contains the Linux kernel for the Redmi Note 9 Pro 5G device.
+ .
+ Note: This package ships an Android Boot Image bundled with Halium's
+ initramfs.
+X-Droidian-Vcs-Revision: 830303ea5dd549e91dcfbcc4ac8a8db4002570f4
+X-Droidian-Vcs-Url: https://github.com/up7down8/android_kernel_xiaomi_gauguin.git
+
+Package: linux-bootimage-xiaomi-gauguin
+Source: linux-android-xiaomi-gauguin
+Version: 0.0.0+git20251220021242.830303e.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 7
+Depends: linux-bootimage-4.19.325-xiaomi-gauguin (= 0.0.0+git20251220021242.830303e.droidian)
+Filename: packages/linux-bootimage-xiaomi-gauguin_0.0.0+git20251220021242.830303e.droidian_arm64.deb
+Size: 1316
+MD5sum: 4d4b81cce0106590f8a92722b0c91cf5
+SHA1: f003d9848c7ca39d294ef067b4168b77e5505fed
+SHA256: e89682e79aba4ce5bbbf171ae9f6beb4ac70fa02d7fbe21f3104bd61799ecca8
+Section: kernel
+Priority: optional
+Description: Linux kernel for Redmi Note 9 Pro 5G - Android Boot Image  (latest)
+ This package depends to the latest kernel bootimage available for the Redmi Note 9 Pro 5G.
+X-Droidian-Vcs-Revision: 830303ea5dd549e91dcfbcc4ac8a8db4002570f4
+X-Droidian-Vcs-Url: https://github.com/up7down8/android_kernel_xiaomi_gauguin.git
+
+Package: linux-headers-4.19.325-xiaomi-gauguin
+Source: linux-android-xiaomi-gauguin
+Version: 0.0.0+git20251220021242.830303e.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 85807
+Depends: linux-image-4.19.325-xiaomi-gauguin (= 0.0.0+git20251220021242.830303e.droidian)
+Filename: packages/linux-headers-4.19.325-xiaomi-gauguin_0.0.0+git20251220021242.830303e.droidian_arm64.deb
+Size: 11897924
+MD5sum: 6a3f379475ea6870fe0f8f504093d387
+SHA1: c6ee2b59f9033bce9022dada106e2ac0f4dbb19b
+SHA256: 6b0886f21ec375b90a532f76eb2c8ccd85162bc6f917736a902a202893b2fca6
+Section: kernel
+Priority: optional
+Description: Linux kernel for Redmi Note 9 Pro 5G - Headers
+ This package contains the Linux kernel headers for the Redmi Note 9 Pro 5G device.
+X-Droidian-Vcs-Revision: 830303ea5dd549e91dcfbcc4ac8a8db4002570f4
+X-Droidian-Vcs-Url: https://github.com/up7down8/android_kernel_xiaomi_gauguin.git
+
+Package: linux-headers-xiaomi-gauguin
+Source: linux-android-xiaomi-gauguin
+Version: 0.0.0+git20251220021242.830303e.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 7
+Depends: linux-headers-4.19.325-xiaomi-gauguin (= 0.0.0+git20251220021242.830303e.droidian)
+Filename: packages/linux-headers-xiaomi-gauguin_0.0.0+git20251220021242.830303e.droidian_arm64.deb
+Size: 1304
+MD5sum: 152c1b824454eeb9d34530ebef072e3d
+SHA1: fd670949ba7f67c72ef8bcb22b1f7dbfdcd63310
+SHA256: 48af8253fc19fb044d4aded5195ac4cf6aa68841b79e81c177d0519f6677d2a5
+Section: kernel
+Priority: optional
+Description: Linux kernel for Redmi Note 9 Pro 5G - Headers (latest)
+ This package depends to the latest kernel headers available for the Redmi Note 9 Pro 5G.
+X-Droidian-Vcs-Revision: 830303ea5dd549e91dcfbcc4ac8a8db4002570f4
+X-Droidian-Vcs-Url: https://github.com/up7down8/android_kernel_xiaomi_gauguin.git
+
+Package: linux-image-4.19.325-xiaomi-gauguin
+Source: linux-android-xiaomi-gauguin
+Version: 0.0.0+git20251220021242.830303e.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 55749
+Filename: packages/linux-image-4.19.325-xiaomi-gauguin_0.0.0+git20251220021242.830303e.droidian_arm64.deb
+Size: 16066628
+MD5sum: 421599c3ae2e2d014778c7dcb5f023d1
+SHA1: b490bb08a1d38b5b5284f96157be707acb20ba41
+SHA256: 7f2ec40c85ffa45961951a6120971660f56a92d8937079c2a5c238dd8cfb87f9
+Section: kernel
+Priority: optional
+Description: Linux kernel for Redmi Note 9 Pro 5G
+ This package contains the Linux kernel for the Redmi Note 9 Pro 5G device.
+ .
+ Note: This package only ships the kernel image and modules, you should probably
+ look at the linux-bootimage-4.19.325-xiaomi-gauguin package for a bootimage suitable
+ for Android boot loaders.
+X-Droidian-Vcs-Revision: 830303ea5dd549e91dcfbcc4ac8a8db4002570f4
+X-Droidian-Vcs-Url: https://github.com/up7down8/android_kernel_xiaomi_gauguin.git
+
+Package: linux-image-xiaomi-gauguin
+Source: linux-android-xiaomi-gauguin
+Version: 0.0.0+git20251220021242.830303e.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 7
+Depends: linux-image-4.19.325-xiaomi-gauguin (= 0.0.0+git20251220021242.830303e.droidian)
+Filename: packages/linux-image-xiaomi-gauguin_0.0.0+git20251220021242.830303e.droidian_arm64.deb
+Size: 1300
+MD5sum: 8900ac0b1e68ba2f2fffb8221792d3ff
+SHA1: 052ed852a37fd7a46755083740b4857ef08cbc5b
+SHA256: d8bddada306273c0d7427a0ab02d176cdad4acb6b8137b29ce5f9a0d89b0171d
+Section: kernel
+Priority: optional
+Description: Linux kernel for Redmi Note 9 Pro 5G (latest)
+ This package depends to the latest kernel image available for the Redmi Note 9 Pro 5G.
+X-Droidian-Vcs-Revision: 830303ea5dd549e91dcfbcc4ac8a8db4002570f4
+X-Droidian-Vcs-Url: https://github.com/up7down8/android_kernel_xiaomi_gauguin.git
+

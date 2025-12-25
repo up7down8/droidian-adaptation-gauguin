@@ -1,0 +1,25 @@
+Origin: https://up7down8.github.io/droidian-adaptation-gauguin
+Label: Droidian PKG
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: arm64
+Components: main
+Description: Packages 
+Date: Thu, 25 Dec 2025 12:35:09 +0000
+MD5Sum:
+ 11f32ddab337b8c236e0cfa175eee1ce              226 Release
+ 457383c4a583182e57896932f480dd38             7315 main/binary-arm64/Packages
+ de8bf13cbf4d94bc012fc1cd46664c64             1713 main/binary-arm64/Packages.gz
+SHA1:
+ 138302680cdc9b26c6def950f6fe817d436cea94              226 Release
+ 09bad90d47840cd340cc63986a37e44e63778028             7315 main/binary-arm64/Packages
+ 42b74340e17e3fbef5b68d591603f51c44717452             1713 main/binary-arm64/Packages.gz
+SHA256:
+ 00cf903e3f5441be547a5d908809a5310901c232d7a184e2083e0d7848647518              226 Release
+ 4308731fcd901b4679283ad2bf89fcb3827b31a7999640bd09f2ade243cc5c28             7315 main/binary-arm64/Packages
+ 3613757b727ddfa69cda0f5af95855026dd41fa16e88b4ccd64c180eda012f4c             1713 main/binary-arm64/Packages.gz
+SHA512:
+ aa5125f48f7aff4f3d93d3126cdc406a0e07a9dc9017090f503a154ec866a5159628643e58861558a6976d243c6af60fae8c2ce2cbb8511fba9f956130d682f5              226 Release
+ 9f08f16b9a70a00bbbdfced3dfef2c2ac9991a8af49e72d1f17ab37d1f5c4e6dd79d136a409094643bc4cf0c934ad18229363014ab8ce8fff5cc9718504f6026             7315 main/binary-arm64/Packages
+ 47ae3cc4a9153bad8d3a97adf056ec4bf44d2baac6f9ada9f02aceb08e63bddc40575f77f53efa4a90f863ac98f308bbbbcaa051e050658bbdfcb59b5c559407             1713 main/binary-arm64/Packages.gz
